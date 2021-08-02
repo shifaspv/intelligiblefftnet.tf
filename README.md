@@ -10,11 +10,11 @@ Tensorflow - 1.14.0 <br>
 
 We required few more very common Python packages, check the ```required.txt``` file and install if you don't have.
 ## Data set
-The model displayed was trained on the data set from <a href="https://datashare.is.ed.ac.uk/handle/10283/1942">here</a>. 
+The model displayed was trained on the clean samples from <a href="https://datashare.is.ed.ac.uk/handle/10283/1942">here</a>. 
 
-Extract data to the ```./data/NSDTSEA``` folder
+Extract data to ```./data/NSDTSEA``` folderr, and generate parallel labels with the SSDRC algorithm. 
 
-You may use ```./data/generate_wave_id_list.py``` script to generate training and testing ID lists if you are using a different data set, and confirm that the names match to the ones in ```./config/config_params.json```
+You may use ```./data/generate_wave_id_list.py``` script to generate training and testing ID lists, and confirm that the names match to the ones in ```./config/config_params.json```
 
 ## Description of the ```./config/config_params.json``` file variables
 <table>
