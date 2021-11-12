@@ -2,7 +2,7 @@
 This repositary provides a tensorflow implementation of the FFTNet intelligibility enhancement model presented in <a href="https://ieeexplore.ieee.org/document/9611022">here</a> . In which, FFTNet is trained as a student network to learn the intelligibility modifications from SSDRC teacher module. Resulting to a noise robust intelligibility modification of input speech.
 Both causal and non-causal versions were experimented in the paper and were found non-causal architecture is more robust.
 
-Although the model was trained on Greek Harvard corpu in the paper for evaluation purpose with native listeners, few samples from the same network (noncausal FFTNet) trained on English data set for ICASSP2020 Show&Tell session is displayed <a href="https://www.csd.uoc.gr/~shifaspv/ICASSP2020-Demo.html">here</a>. In there, the method called "SigPro" is the MBSSDRC method in the paper and "NeuralNet" is the non-causal FFTNet.  
+Although the model in the paper was trained on Greek Harvard corpus for evaluation purpose with native listeners, few samples from the same network (noncausal FFTNet) trained on English data set for ICASSP2020 Show&Tell session is displayed <a href="https://www.csd.uoc.gr/~shifaspv/ICASSP2020-Demo.html">here</a>. In there, the method called "SigPro" is the MBSSDRC method in the paper and "NeuralNet" is the non-causal FFTNet.  
 
 ## Implemented On
 Python - 3.6.8 <br>
